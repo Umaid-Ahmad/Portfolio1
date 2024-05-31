@@ -1,0 +1,75 @@
+@media (max-width: 786px) {
+  .service,
+  .about,
+  .client-feedback,
+  .bp-main,
+  .form-main,
+  .footer-main {
+    padding: 40px 20px;
+  }
+
+  .main_container {
+    background-position: right;
+  }
+  .main_container .header {
+    display: none;
+  }
+  .main_container .header-mob {
+    display: flex;
+  }
+  /* .main_container .header .nav-elements ul {
+    gap: 5px;
+  }
+  .main_container .header .nav-elements ul li {
+    padding: 2px;
+  }
+  .main_container .header .nav-elements ul li a {
+    font-size: 14px;
+  }
+  .main_container .header .nav-elements ul li a.credo-logo {
+    font-size: 18px;
+  } */
+  .main_container .header-content {
+    padding-left: 5%;
+  }
+  .main_container .header-content .header-title {
+    font-size: 40px;
+  }
+  .service .service-container .service-chunk {
+    width: 100%;
+  }
+
+  .about .about_content_container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .about .about-content .about-content-pic {
+    background-position: center;
+  }
+  .about .about_content_container .about-content,
+  .about .about-skill-bar {
+    width: 100%;
+  }
+
+  .client-feedback .cbf-content-container .cfb-content {
+    padding: 0;
+  }
+
+  .bp-main .bp-container {
+    flex-direction: column;
+  }
+  .bp-main .bp-container .bp {
+    width: 100%;
+  }
+  .footer-main .footer-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-main .footer-content div:first-child,
+  .footer-main .footer-content div:last-child {
+    width: 100%;
+  }
+  .footer-main .footer-content .footer-links {
+    width: 100%;
+  }
+}
